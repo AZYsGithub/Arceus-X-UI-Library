@@ -3,7 +3,8 @@
 This is a Roblox Arceus X Remake
 
 Sample code can be viewed here, feel free to use:
-[Sample Code]
+
+[Sample Code](https://github.com/AZYsGithub/Arceus-X-UI-Library/blob/main/sample.lua)
 
 ## Starting
 
