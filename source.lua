@@ -1,6 +1,6 @@
 local lib = {}
 
-local Script_Title = "Arceus tw <font color=\"rgb(255, 0, 0)\">|</font> Ui Lib"
+local Script_Title = "Arceus X <font color=\"rgb(255, 0, 0)\">|</font> Ui Lib"
 
 
 -- Instances:
@@ -410,7 +410,7 @@ end
 local element_height = 50*Menu.AbsoluteSize.Y/210
 local elements = 0
 
-function lib:AddSpace(parent)
+local function AddSpace(parent)
 	local space = tab:Clone()
 	space.Parent = parent
 	space.LayoutOrder = elements
@@ -439,7 +439,7 @@ function lib:AddToggle(name, funct, enabled, ...)
 	newTog.Visible = true
 
 	elements += 1
-	lib:AddSpace(Menu)
+	AddSpace(Menu)
 
 	return newTog
 end
@@ -460,7 +460,7 @@ function lib:AddButton(name, funct, ...)
 	newBut.Visible = true
 
 	elements += 1
-	lib:AddSpace(Menu)
+	AddSpace(Menu)
 
 	return newBut
 end
@@ -492,7 +492,7 @@ function lib:AddComboBox(text, options, funct, ...) -- ADD CUSTOM ELEMENT INSTEA
 	newCombo.Visible = true
 
 	elements += 1
-	lib:AddSpace(Menu)
+	AddSpace(Menu)
 
 	for _, name in ipairs(options) do
 		local newElem = ComboElem:Clone()
@@ -514,7 +514,7 @@ function lib:AddComboBox(text, options, funct, ...) -- ADD CUSTOM ELEMENT INSTEA
 		newElem.Visible = false
 
 		elements += 1
-		lib:AddSpace(Menu)
+		AddSpace(Menu)
 	end
 
 	return newCombo
@@ -528,13 +528,16 @@ function lib:SetIcon(img)
     Logo.Image = img
 end
 
-function lib:SetPrimaryColor(r, g ,b)
+function lib:SetBackgroundColor(r, g ,b)
     Main.BackgroundColor3 = Color3.fromRGB(r, g, b)
 end
 
-
-function lib:SetSecondaryColor(r, g, b)
+function lib:SetTitleColor(r, g, b)
     Title.TextColor3 = Color3.fromRGB(r, g, b)
+end
+
+function lib:SetCloseBtnColor(r, g, b)
+    Close.TextColor3 = Color3.fromRGB(r, g, b)
 end
 
 -- INIT
