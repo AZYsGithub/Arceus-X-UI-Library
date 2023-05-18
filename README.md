@@ -105,5 +105,5 @@ Feel free to modify the RGB values to suit your desired theme.
 This UI library is provided under the [MIT License](LICENSE).
 
 # Credits
-
+Thanks to Chillz#0348 to implement this UI Library.
 GUIs originally from Arceus X Fly/Aimbot/Their own UI Library version, thanks to SPDM Team. Especially Riky47#3355.
