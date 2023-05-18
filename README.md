@@ -1,6 +1,6 @@
 # Arceus-X-UI-Library - Readme
 
-This is a Roblox Arceus X Remake
+This is a Roblox UI Library from Arceus X.
 
 Sample code can be viewed here, feel free to use:
 
@@ -107,4 +107,5 @@ This UI library is provided under the [MIT License](LICENSE).
 
 # Credits
 Thanks to Chillz#0348 to implement this UI Library.
-GUIs originally from Arceus X Fly/Aimbot/Their own UI Library version, thanks to SPDM Team. Especially Riky47#3355.
+
+GUIs originaly are from Arceus X Fly/Aimbot/Their own UI Library version, thanks to SPDM Team. Especially Riky47#3355.
