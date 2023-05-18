@@ -2,9 +2,7 @@
 
 This is a Roblox UI Library from Arceus X.
 
-Sample code can be viewed here, feel free to use:
-
-[Sample Code](https://github.com/AZYsGithub/Arceus-X-UI-Library/blob/main/sample.lua)
+Sample code can be viewed [here](https://github.com/AZYsGithub/Arceus-X-UI-Library/blob/main/sample.lua), feel free to use:
 
 ## Starting
 
