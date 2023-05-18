@@ -244,7 +244,7 @@ Name_3.Position = UDim2.new(0.05, 0, 0.5, 0)
 Name_3.Size = UDim2.new(0.75, 0, 0.8, 0)
 Name_3.Font = Enum.Font.TitilliumWeb
 Name_3.Text = "Enabled"
-Name_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+Name_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Name_3.TextScaled = true
 Name_3.TextSize = 14
 Name_3.TextWrapped = true
@@ -530,6 +530,7 @@ end
 
 function lib:SetBackgroundColor(r, g ,b)
     Main.BackgroundColor3 = Color3.fromRGB(r, g, b)
+    Intro.BackgroundColor3 = Color3.fromRGB(r, g, b)
 end
 
 function lib:SetTitleColor(r, g, b)
@@ -540,6 +541,9 @@ function lib:SetCloseBtnColor(r, g, b)
     Close.TextColor3 = Color3.fromRGB(r, g, b)
 end
 
+function lib:SetButtonsColor(r, g ,b)
+    Toggle.BackgroundColor3 = Color3.fromRGB(r, g, b)
+end
 -- INIT
 
 Main:TweenPosition(
