@@ -539,6 +539,8 @@ end
 
 function lib:SetCloseBtnColor(r, g, b)
     Close.TextColor3 = Color3.fromRGB(r, g, b)
+	Img_2.TextColor3 = Color3.fromRGB(r, g, b)
+	Check.BackgroundColor3 = Color3.fromRGB(r, g, b)
 end
 
 function lib:SetButtonsColor(r, g ,b)
