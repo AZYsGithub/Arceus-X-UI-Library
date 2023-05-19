@@ -71,7 +71,7 @@ end)
 
 ### Optional Theme Customization
 
-The Arceus X UI Library also provides optional functions to customize the theme:
+The Arceus X UI Library also provides optional functions to customize the theme in RGB format:
 
 - Set the background color:
 
@@ -96,6 +96,19 @@ lib:SetTitleColor(255, 255, 255)
 ```lua
 lib:SetButtonsColor(55, 55, 55)
 ```
+
+## Built-In Theme
+
+```lua
+lib:SetTheme("Default")
+```
+
+# Avaiable Built-In Themes:
+- `Default`
+- `TomorrowNightBlue`
+- `HighContrast`
+- `Aqua`
+- `Ocean`
 
 Feel free to modify the RGB values to suit your desired theme.
 
