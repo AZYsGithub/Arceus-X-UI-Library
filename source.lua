@@ -543,6 +543,9 @@ end
 
 function lib:SetButtonsColor(r, g ,b)
     Toggle.BackgroundColor3 = Color3.fromRGB(r, g, b)
+	Button.BackgroundColor3 = Color3.fromRGB(r, g, b)
+	ComboElem.BackgroundColor3 = Color3.fromRGB(r, g, b)
+	ComboBox.BackgroundColor3 = Color3.fromRGB(r, g, b)
 end
 
 function lib:SetTheme(theme)
