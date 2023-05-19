@@ -560,7 +560,7 @@ function lib:SetTheme(theme)
 	elseif theme == "HighContrast" then
 		lib:SetBackgroundColor(0, 0, 0)
 		lib:SetButtonsColor(0, 0, 0)
-		lib:SetCloseBtnColor(255, 255, 255)
+		lib:SetCloseBtnColor(255, 255, 0)
 	elseif theme == "Aqua" then
 		lib:SetBackgroundColor(44, 62, 82)
 		lib:SetButtonsColor(52, 74, 95)
