@@ -103,7 +103,7 @@ lib:SetButtonsColor(55, 55, 55)
 lib:SetTheme("Default")
 ```
 
-# Avaiable Built-In Themes:
+### Avaiable Built-In Themes:
 - `Default`
 - `TomorrowNightBlue`
 - `HighContrast`
