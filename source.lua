@@ -544,6 +544,30 @@ end
 function lib:SetButtonsColor(r, g ,b)
     Toggle.BackgroundColor3 = Color3.fromRGB(r, g, b)
 end
+
+function lib:SetTheme(theme)
+	if theme == "Default" then
+		
+	elseif theme == "TomorrowNightBlue" then
+		lib:SetButtonsColor(74, 208, 238)
+		lib:SetCloseBtnColor(74, 208, 238)
+		lib:SetBackgroundColor(5, 16, 58)
+	elseif theme == "HighContrast" then
+		lib:SetBackgroundColor(0, 0, 0)
+		lib:SetButtonsColor(0, 0, 0)
+		lib:SetCloseBtnColor(255, 255, 255)
+	elseif theme == "Aqua" then
+		lib:SetBackgroundColor(44, 62, 82)
+		lib:SetButtonsColor(52, 74, 95)
+		lib:SetCloseBtnColor(26, 189, 158)
+	elseif theme == "Ocean" then
+		lib:SetBackgroundColor(26, 32, 58)
+		lib:SetButtonsColor(38, 45, 71)
+		lib:SetCloseBtnColor(86, 76, 251)
+	else
+		error("Theme not found.")
+	end
+end
 -- INIT
 
 Main:TweenPosition(
