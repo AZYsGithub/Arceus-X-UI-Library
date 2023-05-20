@@ -16,14 +16,24 @@ To use the Arceus X UI Library, follow these steps:
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Arceus-X-UI-Library/main/source.lua"))()
 ```
 
-2. Set the title and icon for the UI using the following functions:
+2. Set the title for the UI using the following function:
 
 ```lua
 lib:SetTitle("Arceus X | UI Library (Chillz#0348)")
-lib:SetIcon("http://www.roblox.com/asset/?id=9178187770")
+
 ```
 
-Note: You can use rich text for the title and provide a valid icon URL.
+Note: You can use rich text for the title.
+
+3. Set the icon for the UI using the following function:
+
+```lua
+
+lib:SetIcon("http://www.roblox.com/asset/?id=9178187770")
+
+```
+
+Note: You can use `getcustomasset()` for custom image which outside of Roblox marketplace.
 
 ## Usage
 
