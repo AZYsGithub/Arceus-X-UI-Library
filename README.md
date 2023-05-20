@@ -25,6 +25,7 @@ lib:SetTitle("Arceus X | UI Library (Chillz#0348)")
 
 Note: You can use rich text for the title.
 
+
 3. Set the icon for the UI using the following function:
 
 ```lua
@@ -34,6 +35,7 @@ lib:SetIcon("http://www.roblox.com/asset/?id=9178187770")
 ```
 
 Note: You can use `getcustomasset()` for custom image which outside of Roblox marketplace.
+
 
 ## Usage
 
