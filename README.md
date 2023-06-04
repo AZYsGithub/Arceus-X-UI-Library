@@ -2,9 +2,9 @@
 
 This is a Roblox UI Library from Arceus X.
 
-Which is unofficial..
+Which is unofficial.
 
-Sample code can be viewed [here](https://github.com/AZYsGithub/Arceus-X-UI-Library/blob/main/sample.lua), feel free to use:
+Sample code can be viewed [here](https://github.com/AZYsGithub/Arceus-X-UI-Library/blob/main/sample.lua), feel free to use.
 
 ## Starting
 
@@ -19,7 +19,7 @@ local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithu
 2. Set the title for the UI using the following function:
 
 ```lua
-lib:SetTitle("Arceus X | UI Library (Chillz#0348)")
+lib:SetTitle("Arceus X | UI Library")
 
 ```
 
